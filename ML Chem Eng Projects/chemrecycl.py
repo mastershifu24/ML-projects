@@ -1,3 +1,22 @@
+##Data Preparation: The code begins by loading a dataset containing information about chemical substances and their recyclability. The dataset is divided into two parts: one containing the features (characteristics) of the substances and another containing the corresponding recyclability labels.
+
+##Splitting the Data: The dataset is split into two sets—training and testing sets. The training set is used to teach the machine learning model, while the testing set is used to evaluate its performance.
+
+##Data Encoding and Scaling: To ensure the data is in a suitable format for the machine learning model, any categorical variables in the dataset are converted into numerical representations through a process called encoding. Additionally, the numerical features are scaled to a standardized range to prevent any particular feature from dominating the model's learning process.
+
+##Training the Model: A logistic regression model is chosen and trained using the training set. Logistic regression is a type of machine learning algorithm commonly used for classification tasks, such as predicting whether a chemical substance is recyclable or not. The model learns patterns and relationships within the training data to make predictions.
+
+##Making Predictions: Once the model is trained, it is used to make predictions on the testing set. It takes the features of the chemical substances from the testing set and predicts their recyclability based on what it has learned during training.
+
+##Evaluating the Model: The accuracy of the model's predictions is calculated by comparing them with the true recyclability labels from the testing set. This metric indicates the percentage of correct predictions made by the model.
+
+##Understanding Model Performance: The code provides additional insights into the model's performance. The classification report summarizes metrics such as precision, recall, and F1-score, which help assess the model's performance for each class (recyclable or non-recyclable). The confusion matrix displays the count of correct and incorrect predictions, providing a deeper understanding of the model's performance on different classes.
+
+##Feature Importance: The code also examines the importance of each feature in the model's decision-making process. It calculates the absolute value of the coefficients assigned to each feature by the logistic regression model. The higher the coefficient's absolute value, the more influential the corresponding feature is in predicting recyclability.
+
+##By running this code, we can gain insights into the performance and interpretability of the machine learning model, enabling us to understand how well it predicts the recyclability of chemical substances and which features contribute most to its predictions.
+
+
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
