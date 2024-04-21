@@ -1,4 +1,4 @@
-# chemical-recycling-using-ML
+# Project 1: chemical-recycling-using-ML
 This is the first of multiple projects I'll be working on. My goal is to combine chemical engineering and data science to increase and hone my skills.
 I will first create a chemical recycling machine learning model. I'll be updating this along the way.
 
@@ -21,7 +21,7 @@ Efficiency and Scalability: Machine learning models can process large quantities
 Insights for Process Optimization: Analyzing the model's output and feature importance can provide valuable insights into the factors influencing recyclability. This information can guide improvements in chemical design, waste management, and recycling techniques, leading to enhanced sustainability.
 By combining the principles of chemical engineering with the capabilities of machine learning, we can unlock new opportunities to revolutionize chemical recycling practices. This integration empowers us to make substantial progress towards a more sustainable and environmentally conscious future.
 
-# Project Title: Fault Detection and Diagnosis in Industrial Processes using Autoencoders and Neural Networks
+# Project 2: Fault Detection and Diagnosis in Industrial Processes using Autoencoders and Neural Networks
 
 Project Description:
 The aim of this project is to develop a fault detection and diagnosis system for industrial processes using autoencoders and neural networks. This project is highly relevant to research in the field of chemical engineering and has applications in various industries such as oil refining, chemical production, pharmaceutical manufacturing, and energy production.
@@ -48,7 +48,7 @@ The project can provide insights into the integration of data-driven approaches 
 The outcomes of the research can be published in scientific journals, contributing to the knowledge base and serving as a reference for future studies in the field of chemical engineering and process control.
 Overall, this project combines the power of autoencoders, neural networks, and chemical engineering expertise to develop a fault detection and diagnosis system with significant benefits for different industries.
 
-# Project Title: "Predictive Modeling and Analysis of Stock Market Performance in the Technology Sector"
+# Project 3: Predictive Modeling and Analysis of Stock Market Performance in the Technology Sector
 
 Project Description:
 The project aims to develop a predictive modeling and analysis framework to assess stock market performance within the technology sector. By leveraging historical stock market data and advanced machine learning techniques, this project offers valuable insights for technology companies and investors.
