@@ -1,5 +1,26 @@
-# Project 1: chemical-recycling-using-ML
-This is the first of multiple projects I'll be working on. My goal is to combine chemical engineering and data science to increase and hone my skills.
+# Project 1: Disease Detection using Support Vector Machines (SVM)
+
+Description:
+This project implements a disease detection system using Support Vector Machines (SVM), a popular machine learning algorithm for classification tasks. The goal of the project is to develop an efficient and accurate model that can predict the presence or absence of a specific disease based on a set of input features.
+
+The project involves the following key components:
+
+Dataset: A sample dataset is used for training and testing the SVM model. Each data point in the dataset consists of several features relevant to the disease being detected (e.g., age, blood pressure, cholesterol level) and a corresponding label indicating whether the individual has the disease or not.
+
+Data Preprocessing: The dataset is split into training and testing sets using the train-test split strategy. This ensures that the model is trained on a portion of the data and evaluated on unseen data to assess its generalization ability.
+
+SVM Model Training: An SVM classifier with a linear kernel is employed to learn the underlying patterns in the training data. The SVM model aims to find an optimal hyperplane that separates the data points of different classes with the largest margin.
+
+Cross-Validation and Hyperparameter Tuning: Cross-validation is performed to assess the model's performance and ensure its robustness. Grid search is employed to tune the hyperparameters of the SVM model, such as the regularization parameter (C) and the kernel coefficient (gamma). This process helps identify the best combination of hyperparameters that maximizes the model's performance.
+
+Evaluation Metrics: Several evaluation metrics are calculated to assess the performance of the disease detection model. These metrics include accuracy, precision, recall, and F1 score. Accuracy measures the overall correctness of the predictions, while precision and recall provide insights into the model's ability to avoid false positives and false negatives, respectively. The F1 score combines precision and recall into a single metric that balances both measures.
+
+The project code is written in Python and utilizes popular machine learning libraries such as scikit-learn. The code is designed to be modular, allowing for easy customization and extension to other disease detection tasks or datasets.
+
+By developing this disease detection system, the project aims to contribute to the field of healthcare by providing a reliable tool for early diagnosis and intervention. The project can serve as a starting point for researchers, data scientists, and healthcare professionals interested in developing machine learning-based solutions for disease detection and prediction.
+
+# Project 2: chemical-recycling-using-ML
+This is the second of multiple projects I'll be working on. My goal is to combine chemical engineering and data science to increase and hone my skills.
 I will first create a chemical recycling machine learning model. I'll be updating this along the way.
 
 Creating a chemical recycling machine learning model serves as a powerful tool to address the pressing challenges in sustainability and environmental conservation. Let's delve deeper into how these two areas intertwine:
@@ -21,7 +42,7 @@ Efficiency and Scalability: Machine learning models can process large quantities
 Insights for Process Optimization: Analyzing the model's output and feature importance can provide valuable insights into the factors influencing recyclability. This information can guide improvements in chemical design, waste management, and recycling techniques, leading to enhanced sustainability.
 By combining the principles of chemical engineering with the capabilities of machine learning, we can unlock new opportunities to revolutionize chemical recycling practices. This integration empowers us to make substantial progress towards a more sustainable and environmentally conscious future.
 
-# Project 2: Fault Detection and Diagnosis in Industrial Processes using Autoencoders and Neural Networks
+# Project 3: Fault Detection and Diagnosis in Industrial Processes using Autoencoders and Neural Networks
 
 Project Description:
 The aim of this project is to develop a fault detection and diagnosis system for industrial processes using autoencoders and neural networks. This project is highly relevant to research in the field of chemical engineering and has applications in various industries such as oil refining, chemical production, pharmaceutical manufacturing, and energy production.
@@ -48,7 +69,7 @@ The project can provide insights into the integration of data-driven approaches 
 The outcomes of the research can be published in scientific journals, contributing to the knowledge base and serving as a reference for future studies in the field of chemical engineering and process control.
 Overall, this project combines the power of autoencoders, neural networks, and chemical engineering expertise to develop a fault detection and diagnosis system with significant benefits for different industries.
 
-# Project 3: Predictive Modeling and Analysis of Stock Market Performance in the Technology Sector
+# Project 4: Predictive Modeling and Analysis of Stock Market Performance in the Technology Sector
 
 Project Description:
 The project aims to develop a predictive modeling and analysis framework to assess stock market performance within the technology sector. By leveraging historical stock market data and advanced machine learning techniques, this project offers valuable insights for technology companies and investors.
