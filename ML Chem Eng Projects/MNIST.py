@@ -1,3 +1,45 @@
+#Title: Building a Digit Classifier using the MNIST Dataset - A Tutorial
+
+#In this tutorial, we will walk you through the process of training a machine learning model to recognize handwritten digits
+#from 0 to 9. By the end of this tutorial, you will have a working digit classifier that can predict the correct digit 
+#given an input image.
+
+#Step 1: Dataset Overview:
+#We begin by providing an overview of the MNIST dataset. It consists of 60,000 training images and 10,000 
+#test images, each of which is a grayscale image of size 28x28 pixels. The dataset is widely used as a 
+#benchmark for image classification tasks.
+
+#Step 2: Data Preparation:
+#Steps involved in preparing the data for training the model includes loading the dataset using various libraries, 
+#normalizing the pixel values to a range between 0 and 1, and splitting the dataset into training and test sets. 
+
+#Step 3: Model Architecture:
+#In this tutorial, we will use a simple feedforward neural network with two dense layers.
+#The input layer takes the flattened 28x28 image pixels as input, followed by a hidden layer with ReLU activation, 
+#and an output layer with softmax activation to produce class probabilities.
+
+#Step 4: Model Compilation and Training:
+The model will be trained using the training set, with the validation set used to monitor the model's performance and 
+#prevent overfitting. Specify the number of epochs and batch size for training and discuss their significance.
+
+#Step 5: Model Evaluation:
+#After training the model, evaluate its performance on the test set. 
+#Calculate and display the test loss and test accuracy, which provide insights into how well the 
+#model generalizes to unseen data.
+
+#Step 6: Prediction and Comparison:
+#Use the trained model to make predictions on a subset of the test set. We then display the predicted labels alongside the 
+#true labels to compare the model's predictions with the ground truth. 
+
+#Step 7: Visualization:
+#We will visualize the training and validation loss/accuracy over epochs using line plots. 
+#These visualizations help in understanding the model's training progress, identifying overfitting, and 
+#analyzing its performance.
+
+#Conclusion:
+#We have successfully built a digit classifier using the MNIST dataset, and here, I've explained the process step-by-step. 
+#Experiment with different model architectures or datasets to further your understanding.
+
 # Importing libraries
 import numpy as np
 import matplotlib.pyplot as plt
